@@ -1,0 +1,16 @@
+.profile-card{
+    width: 200px;
+    box-shadow: 10px 10px 10px bisque;
+    transition: 0.3s;
+}
+.profile-card:hover{
+    box-shadow: 10px 10px 5px rgb(230, 132, 11);
+}
+
+.profile-card img{
+    width: 50%;
+    height: 50%;
+}
+.content{
+    padding: 10px 10px;
+}

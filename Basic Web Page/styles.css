@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.item{
+    height: 30px;
+}
+.item:hover{
+    background-color: black;
+    color: brown;
+}
+.contener{
+    position: absolute;
+    right: 550px;
+}
+
+.profile-card{
+    width: 600px;
+    box-shadow: 10px 10px 10px bisque;
+    transition: 0.3s;
+}
+.profile-card:hover{
+    box-shadow: 10px 10px 5px rgb(230, 132, 11);
+}
+.content{
+    padding: 10px 10px;
+}
